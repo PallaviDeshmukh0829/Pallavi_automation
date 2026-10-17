@@ -18,7 +18,7 @@ public class Xpathlocator {
 		driver.findElement(By.xpath("//input[@id='lastname']")).sendKeys("Deshmukh");
 		
 		//2.xpath://parenttagname/childtagname
-		//driver.findElement(By.xpath("//div/imput")).sendkeys("Pallavi1234");
+		//driver.findElement(By.xpath("//div/input")).sendkeys("Pallavi1234");
 		
 		//3.xpath://tagname[@attribute='value' and @attribute='value']
 		driver.findElement(By.xpath("//input[@type='text' and @id='userName']")).sendKeys("Deshmukh1234");

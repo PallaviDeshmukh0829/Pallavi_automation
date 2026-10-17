@@ -10,7 +10,6 @@ public class CSSselector {
 	{
      ChromeDriver driver=new ChromeDriver();
 		
-		driver.manage().window().maximize();
 		
 		//open the website
 		driver.get("https://testautomationpractice.blogspot.com/");
@@ -31,11 +30,11 @@ public class CSSselector {
 		driver.findElement(By.cssSelector("input[name='gender'][id='female']")).click();
 		
 		//select class=used to handle dropdown
-		 Select sel=new Select(driver.findElement(By.id("country")));
+		Select sel=new Select(driver.findElement(By.id("country")));
 		 sel.selectByVisibleText("India");
-		 Thread.sleep(1000);
+		 Thread.sleep(2000);
 		 sel.selectByIndex(4);
-		 Thread.sleep(1000);
+		 Thread.sleep(2000);
 		 sel.selectByValue("brazil");
 		 
 

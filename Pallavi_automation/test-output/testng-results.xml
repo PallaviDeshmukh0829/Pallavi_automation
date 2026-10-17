@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-17T12:57:11 IST" name="Default suite" finished-at="2026-10-17T12:57:11 IST" duration-ms="172">
+    <groups>
+    </groups>
+    <test started-at="2026-10-17T12:57:11 IST" name="Default test" finished-at="2026-10-17T12:57:11 IST" duration-ms="172">
+      <class name="Testing.Pallavi_automation.new_demotestng">
+        <test-method signature="show()[pri:0, instance:Testing.Pallavi_automation.new_demotestng@34a3d150]" started-at="2026-10-17T12:57:11 IST" name="show" finished-at="2026-10-17T12:57:11 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- show -->
+        <test-method signature="xyz()[pri:0, instance:Testing.Pallavi_automation.new_demotestng@34a3d150]" started-at="2026-10-17T12:57:11 IST" name="xyz" finished-at="2026-10-17T12:57:11 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+      </class> <!-- Testing.Pallavi_automation.new_demotestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
