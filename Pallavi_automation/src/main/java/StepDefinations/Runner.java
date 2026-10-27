@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="CucumberFeatures",glue= {"StepDefinations"})
+@CucumberOptions(features="CucumberFeatures/toolshop_cust_reg.feature",glue= {"StepDefinations"})
 public class Runner {
 	 
 }
